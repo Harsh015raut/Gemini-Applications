@@ -1,0 +1,24 @@
+[project]
+name = "gemini-llm-application"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.2.0",
+    "crewai>=0.193.2",
+    "crewai-tools>=0.76.0",
+    "faiss-cpu>=1.12.0",
+    "google-generativeai>=0.8.5",
+    "groq>=0.32.0",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.31",
+    "langchain-google-genai>=2.0.10",
+    "langchain-groq>=0.3.8",
+    "pillow>=11.3.0",
+    "pypdf>=6.1.2",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.50.0",
+    "youtube-transcript-api>=1.2.3",
+]
